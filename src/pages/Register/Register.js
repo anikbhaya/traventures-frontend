@@ -18,7 +18,8 @@ const Register = () => {
             history.push(location.state?.from||'/home')
         })
         .catch(error => {
-            setError(error.message)
+            if(String(error.code) === 'auth/popup-closed-by-user')
+            setError('Popup Closed')
         })
         .finally(() => setIsLoading(false))
     }

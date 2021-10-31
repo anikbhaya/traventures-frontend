@@ -15,7 +15,8 @@ const Login = () => {
             history.push(location.state?.from||'/home')
         })
         .catch(error => {
-            console.log(error)
+            if(String(error.code) === 'auth/popup-closed-by-user')
+            setError('Popup Closed')
         })
     }
 
