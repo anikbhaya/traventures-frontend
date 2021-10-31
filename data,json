@@ -1,0 +1,62 @@
+[
+   {
+      "planName":"Midway",
+      "location":"Goa",
+      "duration":"3 Night",
+      "price":"543",
+      "rating":"3.8",
+      "sideTrips":"Heber City, Solitude Mountain Resort, Cascade Springs, Sundance Resort",
+      "img":"https://i.ibb.co/kchc0sX/uinta-recreation-515962678.jpg",
+      "description":"Midway is a city in Wasatch County, Utah, United States. Venture out of the city with trips to Solitude Mountain Resort (in Solitude) and Sundance Resort (in Wallsburg). There's still lots to do: get off the beaten track with an ATV tour, identify plant and animal life at Cascade Springs, stroll around Town Square Park, and tour in style with Heber Valley Railroad."
+   },
+   {
+      "planName":"Istanbul",
+      "location":"Goa",
+      "duration":"1 Night",
+      "price":"543",
+      "rating":"3.8",
+      "sideTrips":"Heber City, Solitude Mountain Resort, Cascade Springs, Sundance Resort",
+      "img":"https://i.ibb.co/c8bFvmr/hagia-sophia-935924490.jpg",
+      "description":"A physical and cultural bridge between Europe and Asia, the transcontinental city of Istanbul serves as a living reminder of the Roman, Byzantine, and Ottoman empires. Start off your visit on the 22nd (Fri): take in the spiritual surroundings of Sultan Ahmed Mosque, admire the striking features of Basilica Cistern, then take in the spiritual surroundings of Hagia Sophia Mosque, and finally take an in-depth tour of Topkapi Palace. Get ready for a full day of sightseeing on the 23rd (Sat): admire the landmark architecture of Dolmabahce Palace, hunt for treasures at Kapali Carsi, then take in the spiritual surroundings of Suleymaniye Cami , and finally steep yourself in history at Galata Tower."
+   },
+   {
+      "planName":"Gokarna",
+      "location":"Goa",
+      "duration":"6 Night",
+      "price":"543",
+      "rating":"3.8",
+      "sideTrips":"Karnataka, Kethapayya Narayan Temple",
+      "img":"https://i.ibb.co/vsWm69S/om-beach-1676705982.jpg",
+      "description":"The small temple town of Gokarna has changed drastically in recent years. Take a break from Gokarna with a short trip to Kethapayya Narayan Temple in Murdeshwar, about 1h 55 min away. There's much more to do: kick back and relax at Om Beach, don't miss a visit to Mirjan Fort, relax and rejuvenate at Shree Hari Yoga India, and tour the pleasant surroundings at Gokarna Beach."
+   },
+   {
+      "planName":"Cairo",
+      "location":"Goa",
+      "duration":"1 Day",
+      "price":"543",
+      "rating":"3.8",
+      "sideTrips":"Karnataka, Kethapayya Narayan Temple",
+      "img":"https://i.ibb.co/7kRvk78/the-museum-of-egyptian-antiquities-1623056288.jpg",
+      "description":"More than 20 million people call Cairo their home and, as soon as you set foot in the sprawling metropolis, it's evident they make it crowded and chaotic, but also exuberant and charming. On the 30th (Sat), stroll around Al-Azhar Park and then see the interesting displays at The Museum of Egyptian Antiquities."
+   },
+   {
+      "planName":"Goa",
+      "location":"Goa",
+      "duration":"4 Day",
+      "price":"543",
+      "rating":"3.8",
+      "sideTrips":"Karnataka, Kethapayya Narayan Temple",
+      "img":"https://i.ibb.co/Scy8ZSQ/palolem-beach-248070782.jpg",
+      "description":"On India's western coastline, the former Portuguese colony of Goa tells a visibly different story than the rest of India. Family-friendly places like Palolem Beach and Agonda Beach will thrill your kids. Next up on the itinerary: kick back and relax at Arambol Beach, see the interesting displays at Museum in Goa | San Thome Museum Goa, stroll through Cavelossim Beach, and explore the activities along Sarzora Lake."
+   },
+   {
+      "planName":"Seoul",
+      "location":"Goa",
+      "duration":"7 Day",
+      "price":"543",
+      "rating":"3.8",
+      "sideTrips":"Everland",
+      "img":"https://i.ibb.co/CJ0zHsr/gyeongbokgung-palace-424210521.jpg",
+      "description":"One of east Asia's major cultural and financial centers, Seoul boasts five World Heritage Sites and a huge selection of museums, temples, shrines, palaces, parks, gardens, and glass-and-steel skyscrapers. Change things up with a short trip to Everland in Yongin (about 1h 15 min away). Pack the 28th (Tue) with family-friendly diversions at Lotte World. And it doesn't end there: browse the exhibits of Gyeongbokgung Palace, get to know the fascinating history of Cheonggyecheon Stream, take in nature's colorful creations at Namsan Park, and pause for some serene contemplation at Myeong-dong Cathedral."
+   }
+]
