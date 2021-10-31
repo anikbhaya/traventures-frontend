@@ -5,7 +5,7 @@ import './Home.css'
 
 const Home = () => {
     
-    const { spots } = useSpots()
+    const { spots } = useSpots([])
     return (
         <div>
             <div id="banner" className=" bg-red-50 flex items-center text-center justify-center text-white">
@@ -23,7 +23,8 @@ const Home = () => {
                 <h2 className="text-center font-bold w-2/3 text-3xl mx-auto  my-10 ">
                         Our <span className="text-primary">Exclusive</span> Tour Plans
                     </h2>
-                    <div className="grid grid-cols-3 gap-20">
+                    {
+                        spots.length > 0 ? <div className="grid grid-cols-3 gap-20">
                         {
                             spots.map(spot =>
                                 <div key={spot._id} className="border border-gray-300">
@@ -45,7 +46,18 @@ const Home = () => {
                                 </div>
                             )
                         }
-                    </div>
+                    </div> : <div class="flex justify-center items-center my-40">
+                <div
+                    class="
+                animate-spin
+                rounded-full
+                h-32
+                w-32
+                border-t-2 border-b-2 border-purple-500
+              "
+                ></div>
+            </div>
+                    }
                 </div>
             </div>
             
