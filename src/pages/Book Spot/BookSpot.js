@@ -61,8 +61,8 @@ const BookSpot = () => {
     console.log(user)
     return (
         <div className="container mx-auto p-4">
-            <div className="flex">
-                <div className="w-1/2">
+            <div className="lg:flex">
+                <div className="lg:w-1/2">
                     <div className="">
                         <div className="flex justify-between bg-primary py-2 px-3 text-white">
                             <p><i className="fas fa-clock"></i> {spot.duration}</p>
@@ -78,7 +78,7 @@ const BookSpot = () => {
                     </div>
 
                 </div>
-                <div className="w-1/2 ml-5">
+                <div className="lg:w-1/2 lg:ml-5 mt-5 lg:mt-0">
 
                     <div className="container mx-auto bg-gray-200 px-3 py-8">
                         <h3 className="text-center font-bold text-2xl mb-4">Place Your Booking Now...</h3>

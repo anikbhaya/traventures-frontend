@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div>
             <div id="banner" className=" bg-red-50 flex items-center text-center justify-center text-white">
-                <div className="container mx-auto p-4 w-1/2">
+                <div className="container mx-auto p-4 md:w-1/2">
                     <h4 className="uppercase text-primary">Start Your Adventure.</h4>
                     <h1 className="text-5xl my-5 font-bold">Let's Explore The World!</h1>
                     <p>Why do you go away? So that you can come back. So that you can see the place you came from with new eyes and extra colors. And the people there see you differently, too. Coming back to where you started is not the same as never leaving.</p>
@@ -24,7 +24,7 @@ const Home = () => {
                         Our <span className="text-primary">Exclusive</span> Tour Plans
                     </h2>
                     {
-                        spots.length > 0 ? <div className="grid grid-cols-3 gap-20">
+                        spots.length > 0 ? <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
                         {
                             spots.map(spot =>
                                 <div key={spot._id} className="border border-gray-300">
@@ -72,7 +72,7 @@ const Home = () => {
                 </div>
                 <div className="container mx-auto p-4">
                     
-                    <div className="grid grid-cols-4 gap-6 relative bottom-32">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 relative bottom-32">
                         <div className="flex justify-center flex-col items-center bg-gray-100 h-72 shadow-lg">
                         <i className="fas fa-user-nurse text-7xl text-primary"></i>
                         <p className="text-xl mt-2">8000+ Our Local Guides</p>
@@ -94,7 +94,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div id="review" className="grid grid-cols-2">
+            <div id="review" className="grid md:grid-cols-2">
                 <div className="w-full">
                     <img className="w-full" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiking-quotes-1586278882.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=640:*" alt="" />
                 </div>
